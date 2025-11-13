@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background-color: #0f172a;
+  color: #f8fafc;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+header {
+  background: linear-gradient(90deg, #06b6d4, #0ea5e9);
+  padding: 1.5rem;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+section {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: #1e293b;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+h2 {
+  color: #38bdf8;
+  border-bottom: 2px solid #38bdf8;
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style-type: "⚡ ";
+  padding-left: 1.2rem;
+}
+
+a {
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.screenshots {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.screenshots img {
+  width: 45%;
+  border-radius: 10px;
+  margin: 10px;
+  transition: transform 0.3s ease;
+}
+
+.screenshots img:hover {
+  transform: scale(1.03);
+}
+
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem;
+  font-size: 0.9rem;
+  background-color: #0f172a;
+  color: #94a3b8;
+}
+
+.cta {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.cta a {
+  background: #38bdf8;
+  color: #0f172a;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.cta a:hover {
+  background: #0ea5e9;
+}
+
+/* Dark Mode Toggle */
+.toggle-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #38bdf8;
+  color: #0f172a;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(56,189,248,0.4);
+  transition: all 0.3s ease;
+}
+
+.toggle-btn:hover {
+  background: #0ea5e9;
+}
+
+body.dark-mode {
+  background-color: #f1f5f9;
+  color: #0f172a;
+}
+
+body.dark-mode section {
+  background: #e2e8f0;
+  color: #0f172a;
+}
+
+body.dark-mode h2 {
+  color: #0284c7;
+  border-bottom: 2px solid #0284c7;
+}
+
+body.dark-mode a {
+  color: #0284c7;
+}
+
+body.dark-mode footer {
+  background-color: #e2e8f0;
+  color: #1e293b;
+}
