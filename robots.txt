@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap:https://matthew14391.github.io/USDT-Flash-Trc20-Erc20-Bep20-Btc/sitemap.xml
+Sitemap: https://matthew14391.github.io/USDT-Flash-Trc20-Erc20-Bep20-Btc/sitemap.xml
